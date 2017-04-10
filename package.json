@@ -2,7 +2,7 @@
   "private": true,
   "name": "phenomic-demo",
   "homepage": "https://systems-analyst-halt-52254.netlify.com",
-  "twitter": "pixelsonly",
+  "twitter": "",
   "repository": "https://github.com/pixelsonly/phenomic-demo",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
@@ -26,7 +26,7 @@
     "offline": false,
     "force-offline": false,
     "cache": false,
-    "clientScripts": true
+    "clientScripts": false
   },
   "#babel": "webpack-(development|production) are useful for webpack 2, otherwise use development|production",
   "babel": {

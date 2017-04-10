@@ -73,6 +73,7 @@ export default (config = {}) => {
                 loader: "css-loader",
                 query: {
                   modules: true,
+                  minimize: true,
                   localIdentName: (
                     config.production
                     ? "[hash:base64:5]"
