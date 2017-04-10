@@ -19,6 +19,9 @@ module.exports = (config) => [
       },
     }),
     require("postcss-reporter")(),
+    require("postcss-inline-svg")({
+      path: "./content/assets"
+    }),
     ...!config.production ? [
       require("postcss-browser-reporter")(),
     ] : [],
